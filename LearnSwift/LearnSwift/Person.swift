@@ -30,7 +30,6 @@ class Person: NSObject {
         setValuesForKeys(info)
     }
     override func setValue(_ value: Any?, forUndefinedKey key: String) {
-        super.setValue(value, forUndefinedKey: key)
     }
 }
 
